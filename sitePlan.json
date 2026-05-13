@@ -1,0 +1,42 @@
+{
+  "businessName": "SteveChy Ventures",
+  "industry": "Fintech",
+  "tone": "professional",
+  "tagline": "Empowering Your Financial Future with Smart Solutions",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to SteveChy Ventures - Your Trusted Fintech Partner in Alimosho. We provide secure, innovative financial technology solutions that simplify payments, transactions, and digital banking for individuals and businesses across Nigeria. Experience seamless financial services designed for the modern Nigerian.",
+      "imagePrompt": "Modern Nigerian fintech office interior with sleek glass surfaces, digital payment terminals, and professionals using smartphones and tablets, bright natural lighting, Lagos contemporary business aesthetic, blue and white color scheme, high-tech atmosphere",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "SteveChy Ventures is a forward-thinking fintech company based in Alimosho, Lagos, dedicated to revolutionizing how Nigerians access and manage financial services. We bridge the gap between traditional banking and modern digital solutions, offering reliable platforms for payments, transfers, bill settlements, and financial management. Our mission is to make financial technology accessible, secure, and beneficial for everyone—from small business owners to individual users seeking convenient banking alternatives. With deep understanding of the Nigerian financial landscape, we deliver solutions that work for our community.",
+      "imagePrompt": "Professional Nigerian fintech team collaborating around a modern conference table with laptops and mobile devices, diverse group of young professionals, contemporary Lagos office space, glass walls with city view, warm professional lighting",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "Digital Payment Solutions: Seamless POS services, instant transfers, and secure payment processing for businesses of all sizes.\n\nBill Payment Services: Quick and convenient payment of utilities, airtime, data bundles, cable TV subscriptions, and more.\n\nMoney Transfer: Fast, reliable local and international money transfer services with competitive rates.\n\nAgent Banking: Comprehensive agent banking solutions enabling cash deposits, withdrawals, and account services in your community.\n\nFinancial Consultation: Expert guidance on digital financial management and fintech integration for your business growth.",
+      "imagePrompt": "Split-screen collage showing various fintech services: Nigerian merchant using POS terminal, customer paying bills on smartphone, money transfer transaction, agent banking kiosk in Lagos neighborhood, vibrant colors, modern digital interface overlays",
+      "layout": "grid"
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Ready to transform your financial experience? Visit us at our Alimosho office or reach out through any of our contact channels. Our dedicated team is available to assist you with all your fintech needs and answer any questions about our services.\n\nOffice Address: No 16 Elemu Road, Hotel Bus Stop, Bokuno, Alimosho, Lagos, Nigeria\n\nPhone: 09033744876\n\nBusiness Hours: Monday - Friday: 8:00 AM - 6:00 PM | Saturday: 9:00 AM - 4:00 PM\n\nWhatsApp: Click to chat with us instantly for quick inquiries and support.",
+      "imagePrompt": "Professional Nigerian business storefront on a busy Lagos street, modern signage, welcoming entrance with glass doors, customers entering, vibrant Alimosho neighborhood setting, clear blue sky, daytime scene, clean and inviting atmosphere",
+      "layout": "default"
+    }
+  ],
+  "contact": {
+    "phone": "09033744876",
+    "email": "info@stevechyventures.com",
+    "address": "No 16 Elemu Road, Hotel Bus Stop, Bokuno, Alimosho, Lagos, Nigeria",
+    "whatsapp": "https://wa.me/2349033744876"
+  }
+}
