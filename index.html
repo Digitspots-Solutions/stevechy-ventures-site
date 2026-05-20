@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SteveChy Ventures - Empowering Your Financial Future with Smart Solutions</title>
+    <title>Akasa Petroleum Logistics Limited - Powering Nigeria's Energy Future</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Figtree:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #100903;
-            --color-accent: #ef4b0b;
-            --color-bg: #FFF6EE;
-            --color-text: #180C04;
-            --color-surface: #29150a;
-            --color-secondary-accent: #1c9b54;
-            --font-display: 'Jost', sans-serif;
-            --font-body: 'Figtree', sans-serif;
-            --border-radius: 16px;
+            --color-primary: #0d172e;
+            --color-accent: #c08f11;
+            --color-bg: #FAF8F2;
+            --color-text: #101E30;
+            --color-surface: #17253d;
+            --color-secondary-accent: #8ba8af;
+            --font-display: 'Fraunces', serif;
+            --font-body: 'Manrope', sans-serif;
+            --border-radius: 0px;
         }
 
         * {
@@ -34,10 +34,11 @@
             font-family: var(--font-body);
             color: var(--color-text);
             background-color: var(--color-bg);
-            line-height: 1.6;
+            line-height: 1.7;
+            font-weight: 400;
         }
 
-        h1, h2, h3, h4, h5, h6 {
+        h1, h2, h3, h4 {
             font-family: var(--font-display);
             font-weight: 700;
             line-height: 1.2;
@@ -57,33 +58,32 @@
         nav {
             position: sticky;
             top: 0;
-            background: rgba(255, 246, 238, 0.95);
+            background: rgba(250, 248, 242, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 10px rgba(16, 9, 3, 0.1);
+            border-bottom: 1px solid rgba(13, 23, 46, 0.1);
         }
 
         .nav-container {
             max-width: 1400px;
             margin: 0 auto;
+            padding: 1.25rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .logo {
+        .nav-logo {
             font-family: var(--font-display);
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--color-primary);
-            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
+            gap: 2.5rem;
             list-style: none;
-            gap: 2rem;
         }
 
         .nav-links a {
@@ -91,6 +91,8 @@
             color: var(--color-text);
             font-weight: 500;
             transition: color 0.3s ease;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
         }
 
         .nav-links a:hover {
@@ -102,9 +104,6 @@
             flex-direction: column;
             cursor: pointer;
             gap: 4px;
-            background: none;
-            border: none;
-            padding: 0;
         }
 
         .mobile-menu-btn span {
@@ -171,14 +170,22 @@
             animation: fadeUp 0.6s ease forwards;
         }
 
-        section:nth-child(2) { animation-delay: 0s; }
-        section:nth-child(3) { animation-delay: 0.1s; }
-        section:nth-child(4) { animation-delay: 0.2s; }
-        section:nth-child(5) { animation-delay: 0.3s; }
+        section:nth-child(1) { animation-delay: 0s; }
+        section:nth-child(2) { animation-delay: 0.1s; }
+        section:nth-child(3) { animation-delay: 0.2s; }
+        section:nth-child(4) { animation-delay: 0.3s; }
+        section:nth-child(5) { animation-delay: 0.4s; }
 
         .container {
             max-width: 1400px;
             margin: 0 auto;
+        }
+
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--color-accent), transparent);
+            margin: 0 auto;
+            max-width: 200px;
         }
 
         #hero {
@@ -188,18 +195,24 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: 0;
+            color: white;
             overflow: hidden;
+            padding: 120px 2rem 80px;
         }
 
-        .hero-image {
+        .hero-bg {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
             z-index: 1;
+        }
+
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .hero-overlay {
@@ -215,52 +228,49 @@
         .hero-content {
             position: relative;
             z-index: 3;
-            color: #fff;
             max-width: 900px;
-            padding: 2rem;
         }
 
         .hero-content h1 {
             font-size: 3.5rem;
-            margin-bottom: 1rem;
-            color: #fff;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.5px;
         }
 
         .hero-content .tagline {
             font-size: 1.5rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
             font-weight: 500;
-            color: #fff;
+            color: rgba(255, 255, 255, 0.95);
         }
 
         .hero-content p {
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
+            font-size: 1.15rem;
+            margin-bottom: 2.5rem;
             line-height: 1.8;
-            color: #fff;
+            color: rgba(255, 255, 255, 0.9);
         }
 
         .cta-button {
             display: inline-block;
-            background: var(--color-accent);
-            color: #fff;
             padding: 1rem 2.5rem;
+            background: var(--color-accent);
+            color: white;
             text-decoration: none;
-            border-radius: var(--border-radius);
-            font-weight: 600;
-            font-size: 1.1rem;
+            font-weight: 500;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(239, 75, 11, 0.3);
+            border: 2px solid var(--color-accent);
+            font-size: 1.05rem;
+            letter-spacing: 0.5px;
         }
 
         .cta-button:hover {
-            background: #d43f08;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(239, 75, 11, 0.4);
+            background: transparent;
+            border-color: white;
         }
 
         #about {
-            background: #fff;
+            background: white;
         }
 
         .about-container {
@@ -272,10 +282,15 @@
 
         .about-image {
             width: 100%;
-            height: 500px;
+            height: 100%;
+            min-height: 500px;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
             object-fit: cover;
-            border-radius: var(--border-radius);
-            box-shadow: 0 10px 40px rgba(16, 9, 3, 0.15);
+            box-shadow: 8px 8px 0 var(--color-accent);
         }
 
         .about-content h2 {
@@ -285,19 +300,22 @@
         }
 
         .about-content p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: var(--color-text);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
         }
 
         #services {
             background: var(--color-bg);
         }
 
-        #services h2 {
-            font-size: 2.5rem;
+        .services-header {
             text-align: center;
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .services-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
             color: var(--color-primary);
         }
 
@@ -305,88 +323,114 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
+            margin-top: 3rem;
         }
 
         .service-card {
-            background: #fff;
-            padding: 2rem;
-            border-radius: var(--border-radius);
-            box-shadow: 0 4px 20px rgba(16, 9, 3, 0.1);
+            background: white;
+            padding: 2.5rem;
+            border: 1px solid rgba(13, 23, 46, 0.1);
             transition: all 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 30px rgba(16, 9, 3, 0.15);
+            box-shadow: 0 8px 24px rgba(13, 23, 46, 0.15);
+            border-color: var(--color-accent);
         }
 
         .service-card h3 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
-            color: var(--color-accent);
+            color: var(--color-primary);
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--color-accent);
         }
 
         .service-card p {
             font-size: 1rem;
             line-height: 1.7;
-            color: var(--color-text);
         }
 
-        #contact {
-            background: #fff;
+        #why-choose {
+            background: white;
         }
 
-        #contact h2 {
-            font-size: 2.5rem;
+        .why-header {
             text-align: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .why-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
             color: var(--color-primary);
         }
 
-        .contact-intro {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto 3rem;
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: var(--color-text);
-        }
-
-        .contact-grid {
+        .why-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            margin-bottom: 3rem;
         }
 
-        .contact-card {
+        .why-card {
             background: var(--color-bg);
-            padding: 2rem;
-            border-radius: var(--border-radius);
-            text-align: center;
-            box-shadow: 0 4px 20px rgba(16, 9, 3, 0.1);
+            padding: 2.5rem;
+            border-left: 4px solid var(--color-accent);
         }
 
-        .contact-card h3 {
-            font-size: 1.3rem;
+        .why-card h3 {
+            font-size: 1.35rem;
             margin-bottom: 1rem;
-            color: var(--color-accent);
+            color: var(--color-primary);
         }
 
-        .contact-card p {
+        .why-card p {
             font-size: 1rem;
             line-height: 1.7;
-            color: var(--color-text);
         }
 
-        .contact-card a {
+        #contact {
+            background: var(--color-surface);
+            color: white;
+        }
+
+        .contact-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .contact-container p {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .contact-details {
+            margin: 3rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-item {
+            font-size: 1.1rem;
+        }
+
+        .contact-item a {
             color: var(--color-accent);
             text-decoration: none;
-            font-weight: 500;
+            transition: color 0.3s ease;
         }
 
-        .contact-card a:hover {
-            text-decoration: underline;
+        .contact-item a:hover {
+            color: white;
         }
 
         .whatsapp-float {
@@ -394,7 +438,7 @@
             bottom: 30px;
             right: 30px;
             background: #25D366;
-            color: #fff;
+            color: white;
             width: 60px;
             height: 60px;
             border-radius: 50%;
@@ -402,27 +446,22 @@
             align-items: center;
             justify-content: center;
             font-size: 2rem;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+            z-index: 999;
             text-decoration: none;
-            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-            z-index: 1000;
-            transition: all 0.3s ease;
+            transition: transform 0.3s ease;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
         }
 
         footer {
-            background: var(--color-surface);
-            color: #fff;
+            background: var(--color-primary);
+            color: white;
             text-align: center;
             padding: 2rem;
-        }
-
-        footer p {
-            font-size: 1rem;
-            color: #fff;
+            font-size: 0.95rem;
         }
 
         @media (max-width: 768px) {
@@ -456,20 +495,18 @@
             }
 
             .about-image {
-                height: 300px;
+                min-height: 300px;
             }
 
             .about-content h2,
-            #services h2,
-            #contact h2 {
-                font-size: 2rem;
+            .services-header h2,
+            .why-header h2,
+            .contact-container h2 {
+                font-size: 1.75rem;
             }
 
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-grid {
+            .services-grid,
+            .why-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -482,14 +519,13 @@
             }
         }
 
-        @media (max-width: 480px) {
+        @media (min-width: 769px) and (max-width: 1024px) {
             .hero-content h1 {
-                font-size: 1.75rem;
+                font-size: 2.75rem;
             }
 
-            .cta-button {
-                padding: 0.875rem 2rem;
-                font-size: 1rem;
+            .about-container {
+                gap: 3rem;
             }
         }
     </style>
@@ -497,48 +533,55 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="#hero" class="logo">SteveChy Ventures</a>
+            <div class="nav-logo">AKASA</div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="mobile-menu-btn">
+            <div class="mobile-menu-btn">
                 <span></span>
                 <span></span>
                 <span></span>
-            </button>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
-    <div class="mobile-menu">
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-
     <section id="hero">
-        <img src="https://images.pexels.com/photos/7511751/pexels-photo-7511751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="SteveChy Ventures Hero" class="hero-image">
+        <div class="hero-bg">
+            <img src="https://images.pexels.com/photos/4914223/pexels-photo-4914223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Petroleum logistics facility">
+        </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>SteveChy Ventures</h1>
-            <p class="tagline">Empowering Your Financial Future with Smart Solutions</p>
-            <p>Welcome to SteveChy Ventures - Your Trusted Fintech Partner in Alimosho. We provide secure, innovative financial technology solutions that simplify payments, transactions, and digital banking for individuals and businesses across Nigeria. Experience seamless financial services designed for the modern Nigerian.</p>
-            <a href="#contact" class="cta-button">Get Started</a>
+            <h1>Akasa Petroleum Logistics Limited</h1>
+            <p class="tagline">Your Trusted Partner in Crude Oil Marketing and Bunkering Services</p>
+            <p>With strategic operations across Nigeria, we deliver comprehensive petroleum logistics solutions that keep your business moving. From crude oil marketing to marine bunkering services, Akasa ensures reliable supply chains and seamless energy distribution.</p>
+            <a href="#contact" class="cta-button">Contact Us Today</a>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
             <div class="about-container">
-                <img src="https://images.pexels.com/photos/30677719/pexels-photo-30677719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About SteveChy Ventures" class="about-image">
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/37589838/pexels-photo-37589838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Akasa operations control room">
+                </div>
                 <div class="about-content">
-                    <h2>About Us</h2>
-                    <p>SteveChy Ventures is a forward-thinking fintech company based in Alimosho, Lagos, dedicated to revolutionizing how Nigerians access and manage financial services. We bridge the gap between traditional banking and modern digital solutions, offering reliable platforms for payments, transfers, bill settlements, and financial management. Our mission is to make financial technology accessible, secure, and beneficial for everyone—from small business owners to individual users seeking convenient banking alternatives. With deep understanding of the Nigerian financial landscape, we deliver solutions that work for our community.</p>
+                    <h2>About Akasa Petroleum Logistics Limited</h2>
+                    <p>Akasa Petroleum Logistics Limited (also trading as Akasa Bunkering Services Co) is a leading Nigerian oil and gas company specializing in crude oil marketing and comprehensive bunkering services. Based in Alimosho, Lagos, we serve clients across Nigeria's energy sector with professionalism, reliability, and industry expertise.</p>
+                    <p>Our founder, a seasoned crude oil marketer, established Akasa with a vision to bridge critical gaps in Nigeria's petroleum supply chain. We understand the complexities of the Nigerian energy market and deliver tailored solutions that meet the demanding requirements of our clients.</p>
+                    <p>At Akasa, we combine deep industry knowledge with operational excellence to ensure uninterrupted petroleum supply, competitive pricing, and regulatory compliance. Whether you require crude oil procurement, marine fuel supply, or logistics coordination, our team delivers results you can depend on.</p>
                 </div>
             </div>
         </div>
@@ -546,27 +589,57 @@
 
     <section id="services">
         <div class="container">
-            <h2>Our Services</h2>
+            <div class="services-header">
+                <h2>Comprehensive Petroleum Solutions</h2>
+                <div class="section-divider"></div>
+            </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Digital Payment Solutions</h3>
-                    <p>Seamless POS services, instant transfers, and secure payment processing for businesses of all sizes.</p>
+                    <h3>Crude Oil Marketing</h3>
+                    <p>We connect producers with refineries and buyers across Nigeria, facilitating transparent transactions and efficient crude oil distribution. Our market intelligence and extensive network ensure competitive rates and reliable supply chains for all stakeholders.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Bill Payment Services</h3>
-                    <p>Quick and convenient payment of utilities, airtime, data bundles, cable TV subscriptions, and more.</p>
+                    <h3>Marine Bunkering Services</h3>
+                    <p>Akasa Bunkering Services Co provides professional marine fuel supply to vessels operating in Nigerian waters. We deliver high-quality marine fuel products with precise scheduling, ensuring your fleet maintains optimal operations without delays.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Money Transfer</h3>
-                    <p>Fast, reliable local and international money transfer services with competitive rates.</p>
+                    <h3>Petroleum Logistics & Distribution</h3>
+                    <p>Our end-to-end logistics solutions cover transportation, storage coordination, and supply chain management for petroleum products. We ensure safe, timely delivery while maintaining strict quality and safety standards.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Agent Banking</h3>
-                    <p>Comprehensive agent banking solutions enabling cash deposits, withdrawals, and account services in your community.</p>
+                    <h3>Supply Chain Consultation</h3>
+                    <p>Leverage our expertise to optimize your petroleum procurement and distribution strategies. We provide market analysis, regulatory guidance, and operational recommendations tailored to Nigeria's oil and gas landscape.</p>
                 </div>
-                <div class="service-card">
-                    <h3>Financial Consultation</h3>
-                    <p>Expert guidance on digital financial management and fintech integration for your business growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose">
+        <div class="container">
+            <div class="why-header">
+                <h2>Why Choose Akasa Petroleum Logistics</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <h3>Industry Expertise</h3>
+                    <p>Our leadership brings years of hands-on experience in crude oil marketing and Nigeria's petroleum sector, ensuring informed decision-making and strategic operations.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Reliable Supply Chain</h3>
+                    <p>We maintain strong relationships with suppliers, transporters, and regulatory bodies, guaranteeing consistent product availability and timely delivery.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Competitive Pricing</h3>
+                    <p>Our market position and operational efficiency enable us to offer competitive rates without compromising on quality or service standards.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Regulatory Compliance</h3>
+                    <p>Akasa operates in full compliance with Nigerian petroleum regulations, maintaining all required licenses and industry certifications for your peace of mind.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Customer-Centric Approach</h3>
+                    <p>We tailor our services to your specific requirements, providing flexible solutions and responsive support that adapts to your business needs.</p>
                 </div>
             </div>
         </div>
@@ -574,40 +647,43 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
-            <div class="contact-intro">
-                <p>Ready to transform your financial experience? Visit us at our Alimosho office or reach out through any of our contact channels. Our dedicated team is available to assist you with all your fintech needs and answer any questions about our services.</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <h3>Visit Us</h3>
-                    <p>No 16 Elemu Road, Hotel Bus Stop, Bokuno, Alimosho, Lagos, Nigeria</p>
+            <div class="contact-container">
+                <h2>Get in Touch with Akasa Petroleum Logistics</h2>
+                <p>Ready to discuss your petroleum logistics requirements? Our team is available to provide detailed consultations and customized solutions for your business.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <strong>Akasa Petroleum Logistics Limited</strong><br>
+                        No 16 Elemu Road, Hotel Bus Stop, Bokuno<br>
+                        Alimosho, Lagos State, Nigeria
+                    </div>
+                    <div class="contact-item">
+                        Phone: <a href="tel:+2349033744876">+234 903 374 4876</a>
+                    </div>
+                    <div class="contact-item">
+                        Email: <a href="mailto:info@akasang.com">info@akasang.com</a>
+                    </div>
+                    <div class="contact-item">
+                        Website: <a href="http://www.akasang.com" target="_blank">www.akasang.com</a>
+                    </div>
                 </div>
-                <div class="contact-card">
-                    <h3>Call Us</h3>
-                    <p><a href="tel:09033744876">09033744876</a></p>
-                </div>
-                <div class="contact-card">
-                    <h3>Email Us</h3>
-                    <p><a href="mailto:info@stevechyventures.com">info@stevechyventures.com</a></p>
-                </div>
-                <div class="contact-card">
-                    <h3>Business Hours</h3>
-                    <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 4:00 PM</p>
-                </div>
+                <p><strong>Business Hours:</strong><br>
+                Monday - Friday: 8:00 AM - 6:00 PM<br>
+                Saturday: 9:00 AM - 2:00 PM</p>
+                <p>For urgent inquiries, please call our dedicated line or send us a message via WhatsApp. We respond to all business inquiries within 24 hours.</p>
+                <p>Partner with Akasa today and experience petroleum logistics excellence.</p>
             </div>
         </div>
     </section>
 
-    <a href="https://wa.me/2349033744876" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="30" height="30">
+    <footer>
+        <p>&copy; 2024 Akasa Petroleum Logistics Limited. All rights reserved.</p>
+    </footer>
+
+    <a href="https://wa.me/2349033744876" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
         </svg>
     </a>
-
-    <footer>
-        <p>&copy; 2024 SteveChy Ventures. All rights reserved.</p>
-    </footer>
 
     <script>
         const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
