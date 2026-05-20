@@ -1,42 +1,49 @@
 {
-  "businessName": "SteveChy Ventures",
-  "industry": "Fintech",
-  "tone": "professional",
-  "tagline": "Empowering Your Financial Future with Smart Solutions",
+  "businessName": "Akasa Petroleum Logistics Limited",
+  "industry": "Oil & Gas",
+  "tone": "professional-authoritative",
+  "tagline": "Powering Nigeria's Energy Future with Reliable Petroleum Solutions",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Welcome to SteveChy Ventures - Your Trusted Fintech Partner in Alimosho. We provide secure, innovative financial technology solutions that simplify payments, transactions, and digital banking for individuals and businesses across Nigeria. Experience seamless financial services designed for the modern Nigerian.",
-      "imagePrompt": "Modern Nigerian fintech office interior with sleek glass surfaces, digital payment terminals, and professionals using smartphones and tablets, bright natural lighting, Lagos contemporary business aesthetic, blue and white color scheme, high-tech atmosphere",
+      "copy": "Akasa Petroleum Logistics Limited\n\nYour Trusted Partner in Crude Oil Marketing and Bunkering Services\n\nWith strategic operations across Nigeria, we deliver comprehensive petroleum logistics solutions that keep your business moving. From crude oil marketing to marine bunkering services, Akasa ensures reliable supply chains and seamless energy distribution.\n\nContact Us Today",
+      "imagePrompt": "Photorealistic aerial view of a modern Nigerian petroleum logistics facility at golden hour, showing clean fuel storage tanks, professional pipeline infrastructure, and delivery trucks in organized formation, with the Nigerian landscape visible in the background, conveying scale, professionalism, and energy sector excellence",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "SteveChy Ventures is a forward-thinking fintech company based in Alimosho, Lagos, dedicated to revolutionizing how Nigerians access and manage financial services. We bridge the gap between traditional banking and modern digital solutions, offering reliable platforms for payments, transfers, bill settlements, and financial management. Our mission is to make financial technology accessible, secure, and beneficial for everyone—from small business owners to individual users seeking convenient banking alternatives. With deep understanding of the Nigerian financial landscape, we deliver solutions that work for our community.",
-      "imagePrompt": "Professional Nigerian fintech team collaborating around a modern conference table with laptops and mobile devices, diverse group of young professionals, contemporary Lagos office space, glass walls with city view, warm professional lighting",
+      "copy": "About Akasa Petroleum Logistics Limited\n\nAkasa Petroleum Logistics Limited (also trading as Akasa Bunkering Services Co) is a leading Nigerian oil and gas company specializing in crude oil marketing and comprehensive bunkering services. Based in Alimosho, Lagos, we serve clients across Nigeria's energy sector with professionalism, reliability, and industry expertise.\n\nOur founder, a seasoned crude oil marketer, established Akasa with a vision to bridge critical gaps in Nigeria's petroleum supply chain. We understand the complexities of the Nigerian energy market and deliver tailored solutions that meet the demanding requirements of our clients.\n\nAt Akasa, we combine deep industry knowledge with operational excellence to ensure uninterrupted petroleum supply, competitive pricing, and regulatory compliance. Whether you require crude oil procurement, marine fuel supply, or logistics coordination, our team delivers results you can depend on.",
+      "imagePrompt": "Professional photograph of a Nigerian oil and gas operations control room with monitoring screens showing pipeline networks and logistics data, experienced Nigerian professionals in corporate attire reviewing operations, modern office setting with subtle petroleum industry branding, conveying expertise and reliability",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "Digital Payment Solutions: Seamless POS services, instant transfers, and secure payment processing for businesses of all sizes.\n\nBill Payment Services: Quick and convenient payment of utilities, airtime, data bundles, cable TV subscriptions, and more.\n\nMoney Transfer: Fast, reliable local and international money transfer services with competitive rates.\n\nAgent Banking: Comprehensive agent banking solutions enabling cash deposits, withdrawals, and account services in your community.\n\nFinancial Consultation: Expert guidance on digital financial management and fintech integration for your business growth.",
-      "imagePrompt": "Split-screen collage showing various fintech services: Nigerian merchant using POS terminal, customer paying bills on smartphone, money transfer transaction, agent banking kiosk in Lagos neighborhood, vibrant colors, modern digital interface overlays",
+      "copy": "Comprehensive Petroleum Solutions\n\nCrude Oil Marketing\nWe connect producers with refineries and buyers across Nigeria, facilitating transparent transactions and efficient crude oil distribution. Our market intelligence and extensive network ensure competitive rates and reliable supply chains for all stakeholders.\n\nMarine Bunkering Services\nAkasa Bunkering Services Co provides professional marine fuel supply to vessels operating in Nigerian waters. We deliver high-quality marine fuel products with precise scheduling, ensuring your fleet maintains optimal operations without delays.\n\nPetroleum Logistics & Distribution\nOur end-to-end logistics solutions cover transportation, storage coordination, and supply chain management for petroleum products. We ensure safe, timely delivery while maintaining strict quality and safety standards.\n\nSupply Chain Consultation\nLeverage our expertise to optimize your petroleum procurement and distribution strategies. We provide market analysis, regulatory guidance, and operational recommendations tailored to Nigeria's oil and gas landscape.",
+      "imagePrompt": "Split-screen composition showing Nigerian petroleum operations: left side features a fuel tanker truck being loaded at a modern depot with safety protocols visible, right side shows a bunkering operation at Lagos port with a vessel receiving marine fuel, both scenes in bright daylight emphasizing professionalism and safety standards",
       "layout": "grid"
+    },
+    {
+      "id": "why-choose",
+      "name": "Why Choose Akasa",
+      "copy": "Why Choose Akasa Petroleum Logistics\n\nIndustry Expertise\nOur leadership brings years of hands-on experience in crude oil marketing and Nigeria's petroleum sector, ensuring informed decision-making and strategic operations.\n\nReliable Supply Chain\nWe maintain strong relationships with suppliers, transporters, and regulatory bodies, guaranteeing consistent product availability and timely delivery.\n\nCompetitive Pricing\nOur market position and operational efficiency enable us to offer competitive rates without compromising on quality or service standards.\n\nRegulatory Compliance\nAkasa operates in full compliance with Nigerian petroleum regulations, maintaining all required licenses and industry certifications for your peace of mind.\n\nCustomer-Centric Approach\nWe tailor our services to your specific requirements, providing flexible solutions and responsive support that adapts to your business needs.",
+      "imagePrompt": "Professional composite image showing Nigerian petroleum industry excellence: quality control testing in a modern lab, certified documentation being reviewed, a handshake between business professionals in safety gear at a depot, and a pristine fuel delivery operation, all conveying trust, expertise, and professionalism",
+      "layout": "cards"
     },
     {
       "id": "contact",
       "name": "Contact Us",
-      "copy": "Ready to transform your financial experience? Visit us at our Alimosho office or reach out through any of our contact channels. Our dedicated team is available to assist you with all your fintech needs and answer any questions about our services.\n\nOffice Address: No 16 Elemu Road, Hotel Bus Stop, Bokuno, Alimosho, Lagos, Nigeria\n\nPhone: 09033744876\n\nBusiness Hours: Monday - Friday: 8:00 AM - 6:00 PM | Saturday: 9:00 AM - 4:00 PM\n\nWhatsApp: Click to chat with us instantly for quick inquiries and support.",
-      "imagePrompt": "Professional Nigerian business storefront on a busy Lagos street, modern signage, welcoming entrance with glass doors, customers entering, vibrant Alimosho neighborhood setting, clear blue sky, daytime scene, clean and inviting atmosphere",
-      "layout": "default"
+      "copy": "Get in Touch with Akasa Petroleum Logistics\n\nReady to discuss your petroleum logistics requirements? Our team is available to provide detailed consultations and customized solutions for your business.\n\nAkasa Petroleum Logistics Limited\nNo 16 Elemu Road, Hotel Bus Stop, Bokuno\nAlimosho, Lagos State, Nigeria\n\nPhone: +234 903 374 4876\nWebsite: www.akasang.com\n\nBusiness Hours:\nMonday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 2:00 PM\n\nFor urgent inquiries, please call our dedicated line or send us a message via WhatsApp. We respond to all business inquiries within 24 hours.\n\nPartner with Akasa today and experience petroleum logistics excellence.",
+      "imagePrompt": "Professional photograph of a modern Nigerian office reception area with Akasa Petroleum branding, a welcoming reception desk with Nigerian staff, corporate environment with subtle oil and gas industry elements, natural lighting through large windows, business cards and petroleum industry publications visible, conveying accessibility and professionalism",
+      "layout": "centered"
     }
   ],
   "contact": {
-    "phone": "09033744876",
-    "email": "info@stevechyventures.com",
-    "address": "No 16 Elemu Road, Hotel Bus Stop, Bokuno, Alimosho, Lagos, Nigeria",
+    "phone": "+234 903 374 4876",
+    "email": "info@akasang.com",
+    "address": "No 16 Elemu Road, Hotel Bus Stop, Bokuno, Alimosho, Lagos State, Nigeria",
     "whatsapp": "https://wa.me/2349033744876"
   }
 }
